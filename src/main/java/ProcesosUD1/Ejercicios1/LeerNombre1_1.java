@@ -1,4 +1,4 @@
-package ProcesosUD1.Ejercicios;
+package ProcesosUD1.Ejercicios1;
 
 public class LeerNombre1_1 {
     /*Crea un programa Java llamado LeerNombre.java que reciba desde los argumentos de

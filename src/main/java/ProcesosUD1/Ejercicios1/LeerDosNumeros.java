@@ -1,4 +1,4 @@
-package ProcesosUD1.Ejercicios;
+package ProcesosUD1.Ejercicios1;
 
 public class LeerDosNumeros {
     /**

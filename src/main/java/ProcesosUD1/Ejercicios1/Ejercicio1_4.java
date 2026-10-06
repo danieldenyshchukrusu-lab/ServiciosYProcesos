@@ -1,4 +1,4 @@
-package ProcesosUD1.Ejercicios;
+package ProcesosUD1.Ejercicios1;
 
 import java.io.*;
 /*Modifica el Ejemplo5.java para que la salida del proceso y la salida del error se
