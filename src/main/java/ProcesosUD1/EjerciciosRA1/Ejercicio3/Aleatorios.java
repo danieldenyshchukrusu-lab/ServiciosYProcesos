@@ -30,8 +30,8 @@ public class Aleatorios {
         Scanner leer = new Scanner(System.in);
 
         /* |ASI SE HARIA SI NOS PIDEN UN EJECUTABLE| */
-        /* ProcessBuilder p = new ProcessBuilder("CMD", "Aleatorioshijo.java"); */ //!!!ESTE NO LO HAS HECHO AUN BRO, CONSULTA CON CLAUDIO, O MIRALO TU MISMO !!!
-        p.directory(new File(".\\src\\main\\java\\ProcesosUD1\\EjerciciosRA1\\Ejercicio3"));
+        ProcessBuilder p = new ProcessBuilder("CMD", "/c","Aleatorioshijo.bat"); //Aqui despues de hacer esto, tienes que hacer dentro de tu proyecto ServiciosYProcesos el fichero .bat
+                                                                                            //Y poner dentro "java" "(ruta donde esta el archivo) (abre tu fichero .bat para verlo)"
 
         /* |ASI SE HARIA SI NO NOS PIDIERA UN EJECUTABLE|
         ProcessBuilder p = new ProcessBuilder("java", "Aleatorioshijo.java");
