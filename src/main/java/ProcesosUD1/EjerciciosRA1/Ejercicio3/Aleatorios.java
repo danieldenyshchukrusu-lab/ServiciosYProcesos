@@ -32,7 +32,7 @@ public class Aleatorios {
         /* |ASI SE HARIA SI NOS PIDEN UN EJECUTABLE| */
         ProcessBuilder p = new ProcessBuilder("CMD", "/c","Aleatorioshijo.bat"); //Aqui despues de hacer esto, tienes que hacer dentro de tu proyecto ServiciosYProcesos el fichero .bat
                                                                                             //Y poner dentro "java" "(ruta donde esta el archivo) (abre tu fichero .bat para verlo)"
-
+                                                                                            //Ahora pruebalo dentro del CMD si quieres
         /* |ASI SE HARIA SI NO NOS PIDIERA UN EJECUTABLE|
         ProcessBuilder p = new ProcessBuilder("java", "Aleatorioshijo.java");
         p.directory(new File(".\\src\\main\\java\\ProcesosUD1\\EjerciciosRA1\\Ejercicio3")); */
