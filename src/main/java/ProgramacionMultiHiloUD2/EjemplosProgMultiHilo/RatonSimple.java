@@ -48,13 +48,15 @@ public class RatonSimple implements Runnable {
 	
 	//main para varios Threads
 	
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		RatonSimple fievel=new RatonSimple("Fievel",4);
-		for (int i=0;i<1000;i++){
+		for (int i=0;i<10;i++){
 			new Thread(fievel).start();
 		}
-	}*/
+	}
+
+
 
 }
